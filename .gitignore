@@ -6,3 +6,5 @@ build/
 reports/
 .DS_Store
 .python-version
+cache/
+out/
