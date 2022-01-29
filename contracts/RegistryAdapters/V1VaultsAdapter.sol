@@ -2,10 +2,10 @@
 pragma solidity ^0.8.2;
 
 // Adapter-specific imports
-import "../../interfaces/Yearn/V1Registry.sol";
+import "../interfaces/Yearn/V1Registry.sol";
 
 // Common imports
-import "../../interfaces/Common/IERC20.sol";
+import "../interfaces/Common/IERC20.sol";
 
 interface IV1Vault {
     function token() external view returns (address);

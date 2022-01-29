@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 pragma solidity ^0.8.2;
 
-import "../../interfaces/Common/IOracle.sol";
-import "../../interfaces/Common/IERC20.sol";
+import "../interfaces/Common/IOracle.sol";
+import "../interfaces/Common/IERC20.sol";
 import "../Utilities/Ownable.sol";
 
 contract Adapter is Ownable {
