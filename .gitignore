@@ -8,3 +8,4 @@ reports/
 .python-version
 cache/
 out/
+node_modules/
