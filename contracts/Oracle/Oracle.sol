@@ -6,6 +6,7 @@ import "../Utilities/Ownable.sol";
 interface IERC20 {
     function decimals() external view returns (uint8);
 }
+arst
 
 contract Oracle is Ownable {
     address[] private _calculations;

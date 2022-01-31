@@ -13,6 +13,7 @@
     "clean": "forge clean",
     "test": "forge test",
     "lint": "solhint --config ./.solhint.json 'contracts/**/*.sol' --fix",
+    "lint:check": "solhint --config ./.solhint.json 'contracts/**/*.sol'",
     "prettier": "prettier --config ./.prettierrc --write 'contracts/**/*.sol'",
     "prettier:list": "prettier --list-different 'contracts/**/*.sol'",
     "prettier:check": "prettier --check --config ./.prettierrc 'contracts/**/*.sol'"
