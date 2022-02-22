@@ -3,15 +3,7 @@
 pragma solidity ^0.8.2;
 
 import "../Utilities/Ownable.sol";
-
-/*******************************************************
- *                       Interfaces                    *
- *******************************************************/
-interface IEarnRegistry {
-    function assets() external view returns (address[] memory);
-
-    function numAssets() external view returns (uint256);
-}
+import "../../interfaces/Yearn/IEarnRegistry.sol";
 
 /*******************************************************
  *                    Generator Logic                  *

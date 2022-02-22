@@ -3,37 +3,7 @@
 pragma solidity ^0.8.2;
 
 import "../Utilities/Ownable.sol";
-
-/*******************************************************
- *                       Interfaces                    *
- *******************************************************/
-interface IV1Registry {
-    function getVaults() external view returns (address[] memory);
-
-    function getVaultsLength() external view returns (uint256);
-}
-
-// interface ManagementList {
-//     function isManager(address accountAddress) external returns (bool);
-// }
-
-// /*******************************************************
-//  *                     Management List                 *
-//  *******************************************************/
-
-// contract Manageable {
-//     ManagementList public managementList;
-
-//     constructor(address _managementListAddress) {
-//         managementList = ManagementList(_managementListAddress);
-//     }
-
-//     modifier onlyManagers() {
-//         bool isManager = managementList.isManager(msg.sender);
-//         require(isManager, "ManagementList: caller is not a manager");
-//         _;
-//     }
-// }
+import "../../interfaces/Yearn/IV1Registry.sol";
 
 /*******************************************************
  *                    Generator Logic                  *
